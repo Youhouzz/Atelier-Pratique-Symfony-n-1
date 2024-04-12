@@ -1,12 +1,3 @@
-import './bootstrap.js';
-/*
- * Welcome to your app's main JavaScript file!
- *
- * This file will be included onto the page via the importmap() Twig function,
- * which should already be in your base.html.twig.
- */
-import './styles/app.css';
-
 /*!
 * Start Bootstrap - Scrolling Nav v5.0.6 (https://startbootstrap.com/template/scrolling-nav)
 * Copyright 2013-2023 Start Bootstrap
@@ -14,7 +5,7 @@ import './styles/app.css';
 */
 //
 // Scripts
-//
+// 
 
 window.addEventListener('DOMContentLoaded', event => {
 

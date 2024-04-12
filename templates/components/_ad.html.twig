@@ -1,0 +1,10 @@
+{% for ad in annonces %}
+<ul >
+    <li>
+        <span class="by">ARTICLES :</span>
+        <a href="#">
+            {{ ad.title }} {{ ad.description }}
+        </a>
+    </li>
+</ul>
+{% endfor %}
